@@ -1,0 +1,11 @@
+/* Hoja de estilos */
+:root {
+    --clr-primary-8: hsl(208, 100%, 8%);
+    --clr-primary-15: hsl(208, 100%, 15%);
+    --clr-secondary-74: hsl(208, 100%, 74%);
+    --clr-neutral: hsl(208, 100%, 94%);
+    --clr-accent-35: hsl(286, 100%, 35%);
+    --clr-accent-65: hsl(286, 100%, 65%);
+    --clr-accent-85: hsl(286, 100%, 85%);
+}
+
