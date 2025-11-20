@@ -1,11 +1,60 @@
 /* Hoja de estilos */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/*
+    font-family: "Inter", san-serif;
+    font-family: "Montserrat", san-serif;
+    
+*/
+
 :root {
-    --clr-primary-8: hsl(208, 100%, 8%);
-    --clr-primary-15: hsl(208, 100%, 15%);
-    --clr-secondary-74: hsl(208, 100%, 74%);
-    --clr-neutral: hsl(208, 100%, 94%);
+    /* Esquema de colores */
+    --clr-primary: hsl(208, 100%, 7%);
+    --clr-secondary: hsl(208, 100%, 75%);
+    --clr-neutral: hsl(208, 100%, 95%);
     --clr-accent-35: hsl(286, 100%, 35%);
     --clr-accent-65: hsl(286, 100%, 65%);
     --clr-accent-85: hsl(286, 100%, 85%);
 }
 
+body {
+    background-color: var(--clr-neutral);
+    color: var(--clr-primary);
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+}
+
+h1 {
+    margin: 0;
+}
+
+header {
+    background-color: var(--clr-primary);
+    color: var(--clr-neutral);
+    padding: 2rem;
+
+    text-align: center;
+}
+
+header a {
+    margin: 1rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+
+
+/* Clase 3 / modelo de caja */
+.box-model {
+    border: 2px solid var(--clr-primary); /* Borde del elemento */
+    padding: 16px; /* Margen interno */
+    
+    margin: 16px auto; /* top y bottom / right y left */
+
+    border-radius: 16px;
+
+    width: 550px; /* Ancho */
+}
