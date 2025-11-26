@@ -6,7 +6,7 @@
     font-family: "Montserrat", san-serif;
     
 */
-
+/* Variables para los colores */
 :root {
     /* Esquema de colores */
     --clr-primary: hsl(208, 100%, 7%);
@@ -17,6 +17,7 @@
     --clr-accent-85: hsl(286, 100%, 85%);
 }
 
+/* Estilos generales para el Body */
 body {
     background-color: var(--clr-neutral);
     color: var(--clr-primary);
@@ -27,8 +28,12 @@ body {
 
 h1 {
     margin: 0;
+    text-align: center;
+    font-weight: 300;
+    font-size: 3rem;
 }
 
+/* Estilos del Header */
 header {
     background-color: var(--clr-primary);
     color: var(--clr-neutral);
@@ -41,8 +46,9 @@ header a {
     margin: 1rem;
 }
 
+/* Estilos del main */
 main {
-    padding: 1rem;
+    padding: 2rem 1rem;
 }
 
 
