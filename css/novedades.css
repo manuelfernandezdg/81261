@@ -19,6 +19,8 @@ main a:active {
     align-items: stretch;
 
     gap: 1rem;
+
+    padding: 2rem 0;
 }
 
 article {
