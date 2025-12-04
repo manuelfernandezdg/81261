@@ -156,7 +156,7 @@ article {
     width: 14rem;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: stretch;
     gap: 0.5rem;
 }
@@ -172,16 +172,50 @@ article h3 {
     font-weight: 400;
 }
 
+.contenedor-btn {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
 a.btn-outline:link,
-a.btn-outline:visited {
+a.btn-outline:visited,
+a.btn-fill:link,
+a.btn-fill:visited {
     text-decoration: none;
     text-align: center;
     border: 0.1rem solid var(--clr-primary);
     border-radius: 0.5rem;
     padding: 0.5rem;
+    font-size: 0.9rem;
 }
 
 a.btn-outline:hover,
 a.btn-outline:active {
+    background-color: var(--clr-primary);
+    color: var(--clr-accent-65);
+}
 
+a.btn-fill:link,
+a.btn-fill:visited {
+    background-color: var(--clr-primary);
+    color: var(--clr-accent-65);
+}
+
+a.btn-fill:hover,
+a.btn-fill:active {
+    background-color: var(--clr-accent-65);
+    color: var(--clr-primary);
+}
+
+/* Desafíos M1 */
+.estilo-1 {
+    font-weight: 600;
+}
+
+.estilo-2 {
+    font-weight: 600;
+    color: var(--clr-accent-65);
+    background-color: var(--clr-primary);
+    padding: 0.5rem;
 }
