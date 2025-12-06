@@ -222,3 +222,30 @@ a.btn-fill:active {
 
 /* Clase 7 Formularios */
 
+form {
+    border: 0.1rem solid var(--clr-primary);
+    width: 24rem;
+    margin: 1rem auto 2rem; /* top / left y right / bottom */
+    padding: 2rem;
+    border-radius: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem; /* Distancia entre elementos en un contenedor con flex */
+}
+
+form h2 {
+    text-align: center;
+}
+
+.estado {
+    display: flex;
+    justify-content: flex-end;
+}
+
+form span {
+    text-align:right;
+    background-color: red;
+    padding: 0.3rem;
+}
+
