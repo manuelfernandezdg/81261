@@ -238,14 +238,87 @@ form h2 {
     text-align: center;
 }
 
-.estado {
+/* .estado {
     display: flex;
     justify-content: flex-end;
 }
+*/
 
 form span {
     text-align:right;
-    background-color: red;
-    padding: 0.3rem;
+} 
+
+/* Clase 8 */
+input,
+select,
+textarea,
+button {
+    padding: 0.5rem 1rem;
+    border: 0.1rem solid var(--clr-primary);
+    border-radius: 0.5rem;
 }
 
+input:focus,
+select:focus,
+textarea:focus {
+    /*outline: 0.1rem solid var(--clr-accent-65);
+    outline-offset: -0.1rem; */
+    outline: none;
+    border: 0.1rem solid var(--clr-accent-65);
+}
+
+textarea {
+    min-height: 12rem;
+}
+
+button {
+    background-color: var(--clr-primary);
+    color: var(--clr-neutral);
+}
+
+button:hover {
+    background-color: var(--clr-accent-65);
+    color: var(--clr-primary);
+    cursor: pointer;
+}
+
+/* Tablas */
+
+table {
+    border: 0.1rem solid var(--clr-primary);
+    width: 100%; /* Toma el 100% del ancho de la sección*/
+    border-collapse: collapse;
+    text-align: center;
+}
+
+table img {
+    width: 7rem;
+}
+
+caption {
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+/*  tr, table row (fila de la tabla)
+    th, table header (encabezado de las columnas)
+    td, table data (celdas comunes)    
+*/
+th {
+    padding: 1rem;
+}
+
+th, 
+td {
+    border: 0.1rem solid var(--clr-primary);
+}
+
+/* first-of-type (primer elemento de su tipo) */
+table tr:first-of-type {
+    background-color: var(--clr-primary);
+    color: var(--clr-neutral);
+}
+
+tr:hover {
+    background-color: var(--clr-secondary);
+}
