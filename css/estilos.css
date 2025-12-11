@@ -322,3 +322,15 @@ table tr:first-of-type {
 tr:hover {
     background-color: var(--clr-secondary);
 }
+
+/* iframe Mapa */
+
+.mapa {
+    width: 100%;
+    height: 32rem;
+    border: none;
+}
+
+video {
+    width: 100%;
+}
