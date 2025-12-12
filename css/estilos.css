@@ -100,7 +100,6 @@ img {
     width: 100%;
 }
 
-
 /* Links */
 /* Link / Visited */
 header a {
@@ -117,6 +116,71 @@ header a:visited {
 header a:hover,
 header a:active {
     color: var(--clr-accent-65);
+}
+
+/* Clase para los links del Main */
+main a:link, 
+main a:visited {
+    color: hsl(286, 100%, 35%);
+    text-decoration: none;
+}
+
+main a:hover,
+main a:active {
+    color: hsl(286, 100%, 65%);
+}
+
+/* Estilos para el Footer del documento */
+footer {
+    background-color: hsl(208, 100%, 8%);
+    color: hsl(208, 100%, 94%);
+    padding: 2rem;
+}
+
+footer h1 {
+    font-size: 1rem;
+}
+
+footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.contenedor-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+
+    width: min(65rem, 100%);
+    margin: 0 auto;
+}
+
+.sobre-nosotros {
+    display: flex;
+    gap: 1rem;
+}
+
+.contacto img {
+    width: 2rem;
+}
+
+/* Clase para los links del Footer */
+a.footer:link,
+a.footer:visited {
+    text-decoration: none;
+    color: hsl(286, 100%, 65%);
+}
+
+a.footer:hover,
+a.footer:active {
+    color: hsl(286, 100%, 85%);
 }
 
 /* Clase 5 */
